@@ -14,6 +14,6 @@ This project examined 1801 vacancies for data analysts (from February to June 20
 - the average salaries among systems analysts are higher than those of data analysts.
 - for data analyst vacancies, the average salary range by grade is small, Junior specialists should expect a salary of around 85 thousand rubles, Junior+ - about 100 thousand rubles, specialists in the Middle and Senior categories - around 120 thousand rubles. For the Senior category, the sample may not be representative - this category objectively has the least data.
 - a Junior system analyst can expect 120 thousand rubles, and specialists with extensive work experience (Middle and Senior) have an average salary of around 190 thousand rubles.
-- vacancies for data analysts and systems analysts, which in both cases often require knowledge of SQL.
+- vacancies for data analysts and systems analysts often require knowledge of SQL.
 - The leaders among professional skills in vacancies for systems analysts are SQL, BPMN, UML and Confluence. Among soft skills, documentation, communication skills and experience in developing technical specialties are the most in demand.
 - vacancies for data analysts often mention knowledge of SQL and Python (these are complex skills). Familiarity with the Pandas, Power BI and MS Excel libraries is also often required. Among soft skills, the ability to analyze data and analytical thinking are mentioned more often.
