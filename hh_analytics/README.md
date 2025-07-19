@@ -1,19 +1,19 @@
-# Исследование рынка вакансий аналитиков данных и системных аналитиков
-Данный проект посвящен исследованию актуального рынка вакансий предлагаемый для аналитиков данных/системных аналитиков в России. Исследование выполнено на открытых данных крупнейшего в России ресурса по поиску работу - HH.ru.
+# Research of the job market for data analysts and systems analysts
+This project is dedicated to the research of the current job market offered for data analysts/system analysts. The research was conducted based on open data from the largest job search resource in Russia - HH.ru.
 
-**Цель исследования:**
+**Research objective:**
 
-Выявить различия в предлагаемых вакансиях для аналитиков данных и системных аналитиков.
+To identify the difference in the offered vacancies for data analysts and systems analysts.
 
-**Общие выводы**
+**General conclusions**
 
-В данном исследовании было рассмотрено 1801 вакансий аналитиков данных(период с февраля по июнь 2024 года) и 1915 вакансий системных аналитиков (период с июня по июль 2024 года), выложенных на сайте по поиску работы HH.ru. Исходя из проанализированных данных можно сделать следующие выводы:
+This project examined 1801 vacancies for data analysts (from February to June 2024) and 1915 vacancies for systems analysts (from June to July 2024) posted on the job search website HH.ru. The following conclusions can be drawn from the analyzed data:
 
-- и на вакансии аналитиков данных, и на вакансии системных аналитиков наиболее востребованы специалисты категории Junior+ и Middle, при этом у аналитиков данных ощутимо чаще ищут специалистов категории Junior+. У системых аналитиков такой разницы нет. Наименее востребованы специалисты категории Senior.
-- лидеры рынка работодателей и по вакансиям аналитиков данных, и по системным аналитикам - банки, маркетплейсы, розничный ритейл и ИТ-аутсорсеры. Среди городов лидеры по количеству вакансий тоже одинаковые - Москва, Петербург, Екатеринбург.
-- средние зарплаты в среде системных аналитиков выше, чем у аналитиков данных.
-- на вакансии аналитика данных разброс средней зарплаты по грейдам небольшой, специалистам категории Junior стоит рассчитывать на зарплату в районе 85 тысяч рублей, Junior+ - около 100 тысяч рублей, специалистам категории Middle и Senior - в районе 120 тысяч рублей. По категории Senior выборка может быть не репрезентативна - в этой категории объективно меньше всего данных.
-- системному аналитику категории Junior можно расчитывать на 120 тысяч рублей, а у специалистов с большим опытом (Middle и Senior) средняя зарплата в районе 190 тысяч рублей.
-- вакансии аналитика данных и системного аналитика объединяет то, что и там, и там наиболее часто требуют знание SQL.
-- лидерами среди hard skills у вакансий системных аналитиков является знание SQL, BPMN, UML и Сonfluence. Среди soft skills наиболее востребовано умение вести документацию, навыки коммуникации и опыт в разработке технических заданий.
-- в вакансии для аналитиков данных чаще всего в требованиях в вакансии упоминается знание SQL и Python (это hard skills). Также часто требуют знание библиотеки Pandas, Power BI и MS Excel. Из soft skills наиболее часто упоминается умение анализировать данные и аналитическое мышление. В целом в первой десятке самых популярных навыков твердых и мягких навыков поровну.
+- both data analysts and systems analysts are most in demand for Junior+ and Middle category specialists, while in the field of data analysts, employers more often look for Junior+ category specialists. There is no such difference for systems analysts. The least in demand are specialists in the Senior category.
+- the leaders of the employer market for both data analyst and systems analyst vacancies are banks, marketplaces, retail and IT outsourcers. Among the leading cities by the number of vacancies, they are also the same - Moscow, St. Petersburg, Yekaterinburg.
+- the average salaries among systems analysts are higher than those of data analysts.
+- for data analyst vacancies, the average salary range by grade is small, Junior specialists should expect a salary of around 85 thousand rubles, Junior+ - about 100 thousand rubles, specialists in the Middle and Senior categories - around 120 thousand rubles. For the Senior category, the sample may not be representative - this category objectively has the least data.
+- a Junior system analyst can expect 120 thousand rubles, and specialists with extensive work experience (Middle and Senior) have an average salary of around 190 thousand rubles.
+- vacancies for data analysts and systems analysts, which in both cases often require knowledge of SQL.
+- The leaders among professional skills in vacancies for systems analysts are SQL, BPMN, UML and Confluence. Among soft skills, documentation, communication skills and experience in developing technical specialties are the most in demand.
+- vacancies for data analysts often mention knowledge of SQL and Python (these are complex skills). Familiarity with the Pandas, Power BI and MS Excel libraries is also often required. Among soft skills, the ability to analyze data and analytical thinking are mentioned more often.
