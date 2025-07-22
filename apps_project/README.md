@@ -1,30 +1,33 @@
-# Мобильные приложения - Выделение групп пользователей на основе поведения
+# Mobile apps: behavioral cohorts analysis
 
-**Описание данных**
+**Data description**
 
-Датасет содержит данные о событиях, совершенных в мобильном приложении "Ненужные вещи". В нем пользователи продают свои ненужные вещи, размещая их на доске объявлений. В датасете содержатся данные пользователей, впервые совершивших действия в приложении после 7 октября 2019 года.
+The dataset contains data on events performed in the "Unnecessary things" mobile application (here and hereafter, the name of the app was changed). In this app, users sell their unnecessary things by posting them on the bulletin board. The dataset contains data on users who performed actions in the application for the first time after October 7, 2019.
 
-**Основные вопросы проекта:**
+**Main questions of the project:**
 
-ПОЛЬЗОВАТЕЛИ КАКОЙ ГРУППЫ СКЛОННЫ ЧАСТО ВОЗВРАЩАТЬСЯ В МОБИЛЬНОЕ ПРИЛОЖЕНИЕ (RETENTION RATE)?
-ПОЛЬЗОВАТЕЛИ КАКОЙ ГРУППЫ ЧАСТО ДЕЛАЮТ ЦЕЛЕВОЕ СОБЫТИЕ (КОНВЕРСИЯ В ЦЕЛЕВОЕ ДЕЙСТВИЕ)?
+WHICH GROUP OF USERS ARE TENDED TO RETURN TO THE MOBILE APPLICATION OFTEN (RETENTION RATE)?
+WHICH GROUP OF USERS OFTEN PERFORM THE TARGET EVENT (CONVERSION TO TARGET ACTION)?
 
-## Вывод
+## Conclusion
 
-**Обзор поведения пользователя**
+**User behavior overview**
 
-Исходя из полученных данных, можно сказать, что первые три когорты показывают удержание в районе 25% на вторую неделю. У пользователей первой когорты на третью неделю, лучше чем у пользователей второй и третьей когорты.
-Средняя продолжительность сессии: 4982.00 секунд (83.03 минут). Медианная продолжительность сессии: 708.42 секунд (11.81 минут).
-Целевое действие с показом контактов совершили около 20% пользователей - это достаточно хороший результат.
-Основные результаты: Для целей данного исследования было выбрано сегментирование по источнику, с которого пользователь установил приложение по следующим причинам:
+Based on the data, I can say that the first three cohorts show retention of about 25% in the second week. For users of the first cohort, it is better in the third week than for users of the second and third cohorts.
 
-группы легко разделить, они точно не пересекаются между собой;
+Average session duration: 4982.00 seconds (83.03 minutes). Median session duration: 708.42 seconds (11.81 minutes).
 
-понимание того, с какого источника пользователи устанавливают приложение дает важную информацию - на основании этих знаний можно решать на какие источники следуют направлять маркетинговые усилия, как строить рекламную кампанию, где стоит пересмотреть подходы.
+The target action with displaying contacts was performed by more than 20% of users - this is a fairly good result.
 
-Исходя из полученных данных, видно что удержание во вторую и третью неделю у пользователей загрузивших, приложение из других источников выше, чем у пользователей google и yandex. Однако конверсия в целевое действие выше у пользователей, пришедших из google и yandex (между собой практически одинаковая), из других источников - ниже, но не в разы. Таким образом, полагаю что целевой группой будет группа пользователей, пришедших из других источников, чтобы повысить конверсию в целевое действие.
+Key results: For the purposes of this study, segmentation by the source from which the user installed the application was chosen for the following reasons:
 
-**Проверенные гипотезы подтверждают полученные результаты:**
+the groups are easy to divide, they definitely do not intersect with each other;
 
-гипотезу о том, конверсия пользователей в просмотр контактов, пришедших из yandex, равна конверсии пользователей в просмотр контактов,пришедших из google не отвергаем нулевую гипотезу (p ≥ 0.05). Нет статистически значимых различий в конверсиях.
-гипотезу о том, конверсия пользователей в просмотр контактов, пришедших из other, равна конверсии пользователей в просмотр контактов,пришедших из google отвергаем нулевую гипотезу (p < 0.05). Конверсии статистически значимо различаются.
+understanding from which source users install the application provides important information - based on this knowledge, you can decide which sources to direct marketing efforts to, how to build an advertising campaign, where it is worth revising approaches.
+
+Based on the data obtained, it is clear that the retention in the second and third weeks of users who downloaded the application from other sources is higher than that of Google and Yandex users. However, the conversion to the target action is higher for users who came from Google and Yandex (almost the same), from other sources - lower, but not significatly. Thus, I believe that the target group will be a group of users who came from other sources in order to increase the conversion to the target action.
+
+**The tested hypotheses confirm the obtained results:**
+
+the hypothesis that the conversion of users to view contacts who came from Yandex is equal to the conversion of users to view contacts who came from Google is not rejected the null hypothesis (p ≥ 0.05). There are no statistically significant differences in conversions.
+the hypothesis that the conversion of users to view contacts who came from other is equal to the conversion of users to view contacts who came from Google is rejected the null hypothesis (p < 0.05). Conversions are statistically significantly different.
