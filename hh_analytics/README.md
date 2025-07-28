@@ -1,4 +1,4 @@
-# Research of the job market for data analysts and systems analysts
+# Research of the job market for data analysts and system analysts
 This project is dedicated to the research of the current job market offered for data analysts/system analysts. The research was conducted based on open data from the largest job search resource in Russia - HH.ru.
 
 **Research objective:**
